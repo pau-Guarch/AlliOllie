@@ -22,7 +22,6 @@ Pàgina web de promoció d’una nova escola d’skate a la zona del Barcelonès
 Primera versió de l’esborrany de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
 
-https://miro.com/welcome/WWNKZDk4R0RtZHRxWVp0azc3R1BhdmFsMHk0cjUzaktFU1R6RHJmMERQSFBORDU1aHU4bUhXNW5RUG81ekhYOXwzNDU4NzY0NTE3MDQ2NTY1MjA3?invite_link_id=303280215091
 
 ## 2) Creació wireframe: Fase de disseny
 **Temporització (Data de lliurament):** 27/01/2022  
