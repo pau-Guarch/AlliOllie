@@ -5,13 +5,13 @@ Projecte de pàgina web per l'escola de skate All&amp;Ollie
 # FITXA PROJECTE
 
 Nom de projecte:All&Ollie Skkate Escola Landing Page  
-Empresa de desenvolupament: Digital Solutions PGG 
-Responsable Tècnic:Pau Guarch Garzón  
+Empresa de desenvolupament: Digital Solutions PGG   
+Responsable Tècnic:Pau Guarch Garzón    
 
 
 Dades de client: ALL&OLLIE SKATE ESCOLA  
-Client: Jose Manuel Roura & Marc Sebastià
-Descripció Projecte: 
+Client: Jose Manuel Roura & Marc Sebastià  
+Descripció Projecte:   
 Pàgina web de promoció d’una nova escola d’skate a la zona del Barcelonès. Té la seva base ubicada Badalona, però la intenció és atreure clients de tota la zona del barcelonès. El lloc web haurà d’incloure informació referent als monitors, tipus de classes, ubicació on es fan, i informació de contacte entre d’altres.
 
 Data Final del prototip (Data de lliurament):
