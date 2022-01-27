@@ -4,9 +4,9 @@ Projecte de pàgina web per l'escola de skate All&amp;Ollie
 
 # FITXA PROJECTE
 
-Nom de projecte:
-Empresa de desenvolupament:
-Responsable Tècnic:
+Nom de projecte:All&Ollie Skkate Escola Landing Page  
+Empresa de desenvolupament: Digital Solutions PGG 
+Responsable Tècnic:Pau Guarch Garzón  
 
 
 Dades de client: ALL&OLLIE SKATE ESCOLA  
