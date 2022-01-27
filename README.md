@@ -17,7 +17,8 @@ Pàgina web de promoció d’una nova escola d’skate a la zona del Barcelonès
 Data Final del prototip (Data de lliurament):
 
 ## 1) Elaboració del “esborrany”: Fase de disseny
-Temporització (Data de lliurament): 20/01/2022
+Temporització (Data de lliurament): 20/01/2022  
+
 Estat: Aprovat
 Primera versió de l’esborrany de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
