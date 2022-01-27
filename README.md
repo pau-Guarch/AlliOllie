@@ -28,8 +28,9 @@ https://miro.com/welcome/WWNKZDk4R0RtZHRxWVp0azc3R1BhdmFsMHk0cjUzaktFU1R6RHJmMER
 **Temporització (Data de lliurament):** 27/01/2022  
 **Estat:** Aprovat  
 Primera versió del wireframe de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
-Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
-
+Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.  
+  
+  https://miro.com/app/board/uXjVOTitpR4=/?invite_link_id=599933191448
 
 
 ## 3) Elaboració d'un mapa de Navegació: Fase de disseny
