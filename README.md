@@ -9,7 +9,7 @@ Empresa de desenvolupament:
 Responsable Tècnic:
 
 
-Dades de client: ALL&OLLIE SKATE ESCOLA
+Dades de client: ALL&OLLIE SKATE ESCOLA  
 Client: Jose Manuel Roura & Marc Sebastià
 Descripció Projecte: 
 Pàgina web de promoció d’una nova escola d’skate a la zona del Barcelonès. Té la seva base ubicada Badalona, però la intenció és atreure clients de tota la zona del barcelonès. El lloc web haurà d’incloure informació referent als monitors, tipus de classes, ubicació on es fan, i informació de contacte entre d’altres.
