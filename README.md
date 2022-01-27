@@ -4,58 +4,58 @@ Projecte de pàgina web per l'escola de skate All&amp;Ollie
 
 # FITXA PROJECTE
 
-Nom de projecte:All&Ollie Skkate Escola Landing Page  
-Empresa de desenvolupament: Digital Solutions PGG   
-Responsable Tècnic:Pau Guarch Garzón    
+**Nom de projecte:** All&Ollie Skkate Escola Landing Page  
+**Empresa de desenvolupament:**  Digital Solutions PGG   
+**Responsable Tècnic:** Pau Guarch Garzón    
 
 
-Dades de client: ALL&OLLIE SKATE ESCOLA  
-Client: Jose Manuel Roura & Marc Sebastià  
-Descripció Projecte:   
+**Dades de client:** ALL&OLLIE SKATE ESCOLA  
+**Client:** Jose Manuel Roura & Marc Sebastià  
+**Descripció Projecte:**   
 Pàgina web de promoció d’una nova escola d’skate a la zona del Barcelonès. Té la seva base ubicada Badalona, però la intenció és atreure clients de tota la zona del barcelonès. El lloc web haurà d’incloure informació referent als monitors, tipus de classes, ubicació on es fan, i informació de contacte entre d’altres.
 
-Data Final del prototip (Data de lliurament):
+**Data Final del prototip (Data de lliurament):** 27/02/2022
 
 ## 1) Elaboració del “esborrany”: Fase de disseny
-Temporització (Data de lliurament): 20/01/2022  
-Estat: Aprovat  
+**Temporització (Data de lliurament):** 20/01/2022  
+**Estat:** Aprovat  
 Primera versió de l’esborrany de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
 
 https://miro.com/welcome/WWNKZDk4R0RtZHRxWVp0azc3R1BhdmFsMHk0cjUzaktFU1R6RHJmMERQSFBORDU1aHU4bUhXNW5RUG81ekhYOXwzNDU4NzY0NTE3MDQ2NTY1MjA3?invite_link_id=303280215091
 
 ## 2) Creació wireframe: Fase de disseny
-Temporització (Data de lliurament): 27/01/2022  
-Estat: Aprovat  
+**Temporització (Data de lliurament):** 27/01/2022  
+**Estat:** Aprovat  
 Primera versió del wireframe de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
 
 
 
 ## 3) Elaboració d'un mapa de Navegació: Fase de disseny
-Temporització (Data de lliurament):27/01/2022  
-Estat: Pendent d’aprovació.  
+**Temporització (Data de lliurament):** 27/01/2022  
+**Estat:** Pendent d’aprovació.  
 Primera versió del mapa de navegació de la pàgina web. Quedarà obert a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
 
 ## 4) Elaboració de la guia d’estils: Fase de disseny
-Temporització (Data de lliurament): 27/01/2022  
-Estat: Pendent d’aprovació.  
+**Temporització (Data de lliurament):** 27/01/2022  
+**Estat:** Pendent d’aprovació.  
 Primera versió de la guia d’estils de la pàgina web. Quedarà oberta a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
 
 ## 5) Creació d'un prototip: Fase de disseny
-Temporització (Data de lliurament):   
-Primera entrega 10/2/2022   
-Estat: Pendent d’aprovació.  
+**Temporització (Data de lliurament):**   
+**Primera entrega 10/2/2022**    
+**Estat:** Pendent d’aprovació.  
 S’entregarà una primera versió del prototip de la pàgina web, on es duran a terme les feines acordades en les fases prèvies del projecte. Es farà una presentació de la pàgina web i s’obrirà un fil de noves propostes/modificacions. En cas de sol·licitar modificacions es retocaran l’esborrany, el wireframe, el mapa de navegació i la guia d’estils.  
 
-Entrega final 17/02/2022  
-Estat: Pendent d’aprovació.  
+**Entrega final 17/02/2022**  
+**Estat:** Pendent d’aprovació.  
 S’entregarà una versió final del producte en cas de que els canvis sol·licitats no modifiquin l’estructura de blocs acordada previament.
 En cas de que el client vulgui realitzar modificacions de gran abast, s’haurà de fer una nova valoració de les feines que s’han de dur a terme i acordar noves dates d’entrega en cas de que s’hagin de fer grans modificacions.   
 
-Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
+**Mètode d’entrega:** link a una web on es podran veure les feines realitzades en les dates acordades.
 
 
 
