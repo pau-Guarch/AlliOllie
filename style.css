@@ -405,14 +405,14 @@ footer input{
     margin-top: 2vh;
     background-color: #d3cece;
     width:60vw;
-    height: 4vh;
+    height: 9vw;
     font-size: 4.5vw;
 }
 footer button{
     margin-left: auto;
     margin-right: auto;
     width: 20vw;
-    height: 4vh;
+    height: 9vw;
     font-size: 4vw;
 }
 footer p{
