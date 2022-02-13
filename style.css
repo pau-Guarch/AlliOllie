@@ -7,7 +7,7 @@ main{
     animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    padding-top: 10vh;
+    padding-top: 0vh;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -117,6 +117,9 @@ header div:first-of-type{
     margin-bottom: 5vh;
     width: 80vw;
     background-color: rgba(255,255,255,0.5);
+    width: 80vw;
+    height: 65vw;
+    margin-left: 5vw;
 }
 
 header div:first-of-type i{
@@ -146,9 +149,9 @@ header div:first-of-type input{
     position: relative;
     align-self: center;
     margin-top: 1.5vh;
-    height: 4vh;
+    height: 5vw;
     width: 45vw;
-    font-size: 4.5vw;
+    font-size: 4vw;
     border-radius: 2vw;
 }
 header div:first-of-type button{
@@ -194,7 +197,7 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    margin-top: 10vw;
+    margin-top: 5vw;
     font-family: 'Rubik', sans-serif;
 }
 li{
@@ -275,6 +278,7 @@ main div:nth-of-type(2){
     align-items: center;
     flex-direction: column;
     background-color: #ff8d00;
+    height: 100%;
 }
 main div:nth-of-type(2) h3{
     font-family: 'Just Another Hand', cursive;
@@ -285,8 +289,7 @@ main div:nth-of-type(2) h3{
     width: 70%;
     position: unset;
 }
-main div:nth-of-type(2) h4{
-}
+
 main div:nth-of-type(2) p{
     display: flex;
     align-self: center;
@@ -494,3 +497,265 @@ footer h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@media(min-width: 620px){
+    main{
+        animation: fadeInAnimation ease 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    /* MENU NAVEGACIO */
+    nav{
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+    }
+    nav >img:first-of-type{
+        width: 20%;
+        height: 20%;
+    }
+    .fas.fa-bars{
+        display: none;
+    }
+    
+    .sidenav {
+        background-color: rgb(0, 0, 0);
+        position: relative; 
+        display: block;
+        height:5vh;  
+    }   
+    .sidenav  img:first-of-type{
+        display: none;
+    }
+    .sidenav .fa-times{
+        display: none;
+    }
+    .sidenav ul {
+        display: flex;
+        margin-top: 2vw;
+        position: relative;
+        left: 10vw;
+        font-size: 2vw;
+        color: #ffffff;
+        border-top: none;
+        margin-right: 20vw;
+
+    }
+    .sidenav ul li {
+        margin-left: 2vw;
+        margin-top: 0%;
+    }
+
+    /* HEADER */
+    header{
+        animation: fadeInAnimation ease 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        background-color: #ff8d00;
+        display: grid;
+        grid-template-areas: "img ban a"
+                             "img ban b"
+                             "img ban c"
+        ;
+        grid-template-columns: 50% 0% 50%;
+    grid-template-rows: 10vw 10vw 30vw;
+        /* grid-template-columns: 50% 0% 50%;
+        grid-template-rows: 20vh 20vh 40vh;
+        height: 80vh; */
+
+    }
+    header > img:first-of-type{
+        grid-area: img;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    header div:first-of-type{
+        
+        height: 40vw;
+        width: 40vw;
+        margin-left: 5vw;
+    }
+    
+    header div:first-of-type i{
+        display: flex;
+        align-self: flex-end;
+        width: fit-content;
+        font-size: 6vw;
+    }
+    header div:first-of-type h2{
+        margin-bottom: 2vh;
+        width: 30vw;
+        font-size: 4vw
+    }
+    header div:first-of-type p:first-of-type{
+       
+        font-size: 4vw;
+    }
+    header div:first-of-type input{
+        height: 4vw;
+        width: 35vw;
+        font-size: 2.5vw;
+    }
+    header div:first-of-type button{
+      display: flex;
+      padding-left: 1vw;
+      width: 13vw;
+      height: 5vw;
+      font-size: 3vw;
+    }
+    
+    header h1{
+        font-family: 'Just Another Hand', cursive;
+        font-size: 10vw;
+        margin-bottom: -3vh;
+        height: fit-content;
+        grid-area: a;
+    }
+    header h2{
+        font-size: 5vw;
+        grid-area: b;
+
+    }
+    h2.tittle{
+        margin-left: 8%;
+        margin-top: 10vw;
+
+    }
+    header p:last-child{
+        font-size: 4vw;
+        grid-area: c;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    main div:first-of-type {
+        display: grid;
+        grid-template-areas: 
+            "header header header header "
+            "tittle2 tittle2 tittle3 tittle3"
+            "foto1 text1 foto2 text2"
+        ;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 10vw 10vw 30vw;
+    }
+    main div:first-of-type h3:first-of-type{
+        grid-area: header;
+        /* width: 90%;
+        margin-bottom: 1vh;
+        margin-top: 5vh; */
+    }
+    main div:first-of-type h3:nth-of-type(2){
+        grid-area: tittle2;
+        text-align: center;
+        width: 40vw;
+
+    }
+    main div:first-of-type h3:nth-of-type(3){
+        grid-area: tittle3;
+        width: 50vw;
+        margin-left:        
+    }
+    main div:first-of-type img:first-of-type{
+        width: 80%;
+        grid-area: foto1;
+    }
+    main div:first-of-type p:first-of-type{
+        grid-area: text1;
+        width: 80%;
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 2vw;
+        margin-bottom: 3vh;
+    }
+    main div:first-of-type img:nth-of-type(2){
+        margin-top: 2vh;
+        width: 80%;
+        grid-area: foto2;
+    }
+    main div:first-of-type p:nth-of-type(2){
+        grid-area: text2;
+        font-size: 2vw;
+
+    }
+}
+@media(min-width: 1000px){
+    nav{
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+    }
+    nav >img:first-of-type{
+       
+        top: 50%;
+        width: 15%;
+        height: 15%;
+        padding-left:5%;
+        
+    }
+    .sidenav ul {
+        display: flex;
+        margin-top: 1vw;
+        font-size: 1.5vw;
+        left: 20vw;
+        margin-right: 20vw;
+    }
+    header{
+        
+        grid-template-columns: 50% 0% 50%;
+        grid-template-rows: 20vh 20vh 40vh;
+        height: 80vh;
+
+    }
+    header p:last-child {
+        font-size: 3vw;
+    }
+    header p:last-child {
+        margin-bottom: 15vh;
+        margin-top: 5vh;
+    }
+    h2.tittle{
+        margin-left: 4%;
+        margin-bottom: 5vw;
+    }
+    header > img:first-of-type{
+        width: 90%;
+    }
+    h1{
+        margin-top: 3vw;
+        padding-right: 11%;
+
+    }
+    
+    header div:first-of-type{
+    
+        height: 30vw;
+        width: 35vw;
+        margin-left: 5vw;
+    }
+    
+    header p:last-child{
+        padding-right: 13%;
+    }
+    header div:first-of-type input {
+        width: 30vw;
+    }
+    header div:first-of-type i {
+       
+        font-size: 3vw;
+    }
+}

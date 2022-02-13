@@ -20,9 +20,7 @@
     <nav id="inici">
         <!-- <a id="start"></a> -->
         <img src="./data/images/alliollie_letters_white.jpg" alt="alliollie_white_logo">
-        <div class="icon">
-            <i class="fas fa-bars"></i> 
-        </div>
+        
         <div id="sideBarNav" class="sidenav">
             <div class="icon">
                 <i class="fas fa-times"></i> 
@@ -36,6 +34,9 @@
                 <li><a href="#contacte" onclick="closeNav()">CONTACTE</a></li>
             </ul>
         </div>
+        <div class="icon">
+            <i class="fas fa-bars"></i> 
+        </div>
     </nav>
     
     <header>
@@ -43,20 +44,20 @@
         <div id="header-banner" class="headerbanner">
             <i id="closehdrbtn"class="fas fa-times" onclick="closeBanner()"></i> 
             <h2 id="msg">CURSOS DE SKATE 2022</h2>
-            <p>Informate'n ja!</p>
-            <input type="text" placeholder="Introdueix el teu email">
+            <p> Informate'n ja!</p>
+            <input type="text" placeholder=" Introdueix el teu email">
             <button >¡ENVIA!</button>
         </div>
 
         <h1>ALL&OLLIE</h1><br> 
-        <h2>ESCOLA DE SKATE</h2> 
+        <h2 class="tittle">ESCOLA DE SKATE</h2> 
         <p id="headertxt">Apren skate amb les nostres classes per a nens i adults de forma segura i divertida.</p>
     </header>
     
     <main >
         
-        <h2>GAUDEIX, PROGRESSA I APRÈN AMB ALL&OLLIE!</h2>
-        <a href="#contacte"><button type="button" name="button" >APUNTA'T</button></a>
+        <!-- <h2>GAUDEIX, PROGRESSA I APRÈN AMB ALL&OLLIE!</h2>
+        <a href="#contacte"><button type="button" name="button" >APUNTA'T</button></a> -->
         <div id="classes">
             <h3>LES NOSTRES CLASSES</h3>
             <h3>Clases per a nens i nenes de totes les edats</h3>
@@ -120,7 +121,7 @@
         <a href="https://www.instagram.com/alliollie.skatescola/">
         <i class="fab fa-instagram"></i>
     </a>
-        <h2>Email: info@alliollie.cat</h2>
+        <a href="mailto:info@alliollie.cat"><h2>Email: info@alliollie.cat</h2></a>
     </footer>
     
     <!-- <div class="button"><i class="fa-solid fa-circle-arrow-up"></i></div> -->
@@ -129,8 +130,9 @@
 <button class="arrowbutton"> &#8593;</button>
 </a>
 <script>
-    const message = 'CURSOS DE SKATE 2022';
 
+    //Efecto de letras tecleandose
+    const message = 'CURSOS DE SKATE 2022';
     const typingPromises = (message, timeout) =>
     [...message].map(
         (ch, i) =>
@@ -155,33 +157,19 @@
     let closeBtn2 = document.querySelector('#closehdrbtn');
     let openBtn = document.querySelector('.fa-bars');
     let sideBarMenu = document.querySelector('#sideBarNav');
-    
     let banner = document.querySelector('#header-banner');
-
     let sidenav = document.querySelector('.sidenav');
     let header = document.getElementsByTagName("header");
-    // let inicio = document.querySelector('#inicio');
-
-    // inicio.addEventListener('click', ()=>{
-    //     sidenav.style.display ="block";
-    // })
 
     // listener para boton de abrir menu
     openBtn.addEventListener('click', ()=>{
         sidenav.style.display="block";
         header.style.filter="blur(px)";
     })
-   
     // listener para boton de cerrar menu
     closeBtn.addEventListener('click', ()=>{
-        sideBarMenu.style.display ="none";
-        
+        sideBarMenu.style.display ="none";  
     })
-    //listener para boton de cerrar menu email no funciona
-    closeBtn2.addEventListener('click', ()=>{
-        headerbanner.style.display="none";
-    })
-
     function closeBanner(){
         banner.style.display ="none";
     }
@@ -215,7 +203,9 @@
 
     //cerrar nav
     function closeNav(){
-        sideBarMenu.style.display ="none";
+        if(screen.width<920){
+            sideBarMenu.style.display ="none";
+        }
     }
 
     //smoothie efecto
