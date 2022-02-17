@@ -64,21 +64,22 @@ https://pauguarch.github.io/AlliOllie/
 # PROPOSTA DE PROJECTE:
 
 ## 1. Qui Som
-En aquest punt recomano no estendre's en excés. Aquí hauríem de contemplar el següent: a què es dedica l'empresa i algunes dades rellevants com qui és l'equip de treball que desenvoluparà el servei, referència de clients i serveis.
 Som una empresa de desenvolupament d’aplicacions web orientada al E-commerce i al posicionament web als buscadors més popular d’internet amb la finalitat de donar la visibilitat necessaria el teu projecte perquè aquest pugui tenir l’èxit esperat.
 Tenim un equip de 10 programadors que són els que duen a terme els nostres desenvolupaments. amb dos departaments diferenciats: Front-end i Back-end.
+Treballem per a petites i mitjanes empreses i ens adaptem a diferents tipus de projecte, emprant les eïnes més idònies per cadascun d'ells.
 
 ## 2. Objectius del Servei
-Aquí s'haurien de veure plasmats els objectius trets de l'estudi previ, perquè siguin clars i acceptats pel client, i així poder realitzar el servei en funció d'aquests objectius. El que vinguin en la proposta ens ajudarà a tenir el focus del servei.
+Desenvolupament d'una pàgina web tipus single page, per a després anar ampliant seccions i anar incloent mes contingut. La idea és fer una primera versió on es mostri tota la informació necessaria pel client per poder penjar la pagina web amb el minim temps possible. Un cop tinguem una primera versió disponible , a mida que es vagi avançant en el projecte, s'anirà incloent tot aquell contingut i totes les noves funcionalitats que es vagin acabant.
 
 ## 3. Desenvolupament del Contingut de la Proposta
 Bàsicament en què consisteix el servei i com el donarem al nostre client. Si existeixen diferent fites o fases haureu d'especificar-los en un calendari (diagrama de gantt), que contempli i expliqui cada fase
 
 ## 4. Abast de la Proposta
-Aquest punt és oblidat a vegades i pot generar malentesos en el futur de la relació. Si aclarim des d'un principi fins on arriba la nostra proposta, i a més afegim un afegitó que digui que “Qualsevol ampliació del servei més enllà d'aquest abast serà pressupostat prèviament per a la seva aprovació”. Ens evitarem molts disgustos de clients que sempre requereixen un abast major del servei ofert inicialment.
+La nostra proposta inclou la realització d'una single page amb 4 seccions diferenciades on s'inclourà la informació bàsica que requereixi el client. Per cadascuna d'aquestes seccions, desenvoluparem també una pàgina web apart on poguem veure el contingut de cada secció de forma més detallada. En total tindrem 5 dissenys de pàgina(pagina principal+4seccions). Inclourem també les funcionalitats de poder enviar el mail de l'usuari per rebre informació ampliada sobre tots els serveis ofertats per l'empresa.
+Qualsevol ampliació de contingut que no sigui el detallat en aquestes línies tindrà un cost adicional en relació a l'analisi previ que es fagi del requeriment.
 
 ## 5. Valor del Servei
-Altre dels grans oblidats de moltes propostes. Què aporta el meu servei de valor al client? Poder especificar que obté de Valor el client amb la contractació del servei és un treball d'interès per part de qui ofereix servei. Com més tangible sigui el valor  millor. Per descomptat ha d'estar alineat amb els objectius fixats.
+El valor del nostre servei té diversos beneficis pel client, pero és basicament una eina de marketing imprescindible en la societat actual en la que vivim. Una bona pàgina web transmet al nostre client un status empresarial que fa que la nostra empresa tingui una millor valoració. Apart d'això, fara 
 
 ## 6. I per descomptat, preu i forma de pagament:
 Tot l'anterior justifica el valor econòmic del servei. No oblidem, si la situació ho permet, especificar la forma de pagament, i posar els diferents pagaments segons les fites o fases que determini el servei.
