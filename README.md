@@ -45,7 +45,7 @@ Mètode d’entrega: link a una web on es podran veure les feines realitzades en
 **Estat:** Aprovat.  
 Primera versió de la guia d’estils de la pàgina web. Quedarà oberta a nous canvis (en cas de que sigui necessari) fins que comencen la fase 4. Després de la data de presentació del prototip, obrirem un breu període on podrem realitzar noves modificacions a l’esborrany si el client ho demana.
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.
-
+https://docs.google.com/document/d/1hH1teJZt5tg3DnV3GsF59dewnc787oz_8WTPwNESys8/edit?usp=sharing
 ## 5) Creació d'un prototip: Fase de disseny
 **Temporització (Data de lliurament):**   
 **Primera entrega 10/2/2022**    
