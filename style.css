@@ -27,7 +27,7 @@ a{
 nav{
     display: flex;
     align-self: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     width: 100%;
     background-color: black;
     padding-bottom: 5vw;
@@ -82,7 +82,7 @@ nav >img:first-of-type{
     list-style-type: none;
     padding: 0vw 0vw 9vw 9vw; 
     text-decoration: none;
-    font-size: 8vw;
+    font-size: 4vh;
     color: #000000;
     transition: 0.4s;
     border-top: 5px solid #d3cece;
@@ -119,7 +119,6 @@ header div:first-of-type{
     background-color: rgba(255,255,255,0.5);
     width: 80vw;
     height: 65vw;
-    margin-left: 5vw;
 }
 
 header div:first-of-type i{
@@ -233,13 +232,12 @@ main button:first-of-type{
 }
 
 main h3 {
-    font-size: 4vh;
+    font-size: 7vw;
     margin-top: 2vh;
-    width: 80vw;
-    display: flex;
+    width: 88vw;
     align-self: center;
     text-align: center;
-}
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 main div:first-of-type{
     align-items: center;
     display: flex;
@@ -248,14 +246,23 @@ main div:first-of-type{
     flex-direction: column;   
     background-color: #d3cece;  
     padding-bottom: 0vh;
+
+}
+#classes{
+    background: linear-gradient(to bottom,rgb(177, 175, 175), #d3cece, rgb(177, 175, 175));
+
 }
 main div:first-of-type img{
+    width: 70%;
+}
+main div:first-of-type img:nth-of-type(2){
     width: 80%;
 }
 main div:first-of-type h3:first-of-type{
     width: 90%;
-    margin-bottom: 1vh;
+    font-size: 13vw;
     margin-top: 5vh;
+    font-family: 'Just Another Hand', cursive;
 }
 main div h3:nth-of-type(2){
     
@@ -267,11 +274,10 @@ main div p{
     text-align: center;
     font-size: 6vw;
     margin-bottom: 3vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
-main div:first-of-type img:nth-of-type(2){
-    margin-top: 2vh;
-    width: 80%;
-}
+
 
 main div:nth-of-type(2){
     display: flex;
@@ -280,10 +286,12 @@ main div:nth-of-type(2){
     background-color: #ff8d00;
     height: 100%;
 }
+
 main div:nth-of-type(2) h3{
     font-family: 'Just Another Hand', cursive;
     font-size: 17vw;
     margin-top: 2vh;
+    margin-bottom: 0%;
     justify-content: center;
     text-align: center;
     width: 70%;
@@ -379,6 +387,8 @@ h4{
     padding-top: 3vh;
     padding-left: 7vw;
     padding-bottom: 5vh;
+    padding-right: 7vw;
+
 }
 .fade {
   -webkit-animation-name: fade;
@@ -477,42 +487,36 @@ footer h2{
     margin-left: 5vw;
 }
 
-.fa-solid.fa-circle-arrow-up{
+/* .fa-solid.fa-circle-arrow-up{
     color: rgb(158, 104, 4);
     position: fixed;
     display: block;
     z-index: 1;
-}
+} */
 .arrowbutton{
-    background-color: rgb(151, 151, 151);
-    z-index: 999;
+    background: linear-gradient(90deg, #daae51 0%, #d53369 100%);    z-index: 999;
     position:fixed;
-    height: 6vh;
+    height: 12vw;
     width: 12vw;
     bottom:1vh;
     left: 87vw;
-    font-size: 10vw;
+    font-size: 8vw;
     border-radius: 50%;
-    color: white;
+    border-style: none;
+    color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:900;
+
 }
 
 @media(min-width: 620px){
-    main{
-        animation: fadeInAnimation ease 4s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
+    .arrowbutton{
+        display: none;
     }
-    @keyframes fadeInAnimation {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-         }
+    
+    main h3 {
+        font-size: 3vw;
+        margin-top: 0vw;
     }
     a{
         text-decoration: none;
@@ -522,6 +526,7 @@ footer h2{
     nav{
         padding-bottom: 2vw;
         padding-top: 2vw;
+        position: fixed; top: 0; left: 0; z-index: 9999; 
     }
     nav >img:first-of-type{
         width: 20%;
@@ -530,7 +535,6 @@ footer h2{
     .fas.fa-bars{
         display: none;
     }
-    
     .sidenav {
         background-color: rgb(0, 0, 0);
         position: relative; 
@@ -571,17 +575,13 @@ footer h2{
                              "img ban c"
         ;
         grid-template-columns: 50% 0% 50%;
-    grid-template-rows: 10vw 10vw 30vw;
-        /* grid-template-columns: 50% 0% 50%;
-        grid-template-rows: 20vh 20vh 40vh;
-        height: 80vh; */
-
+        grid-template-rows: 10vw 10vw 30vw;
+        margin-top: 10vw;
+        
     }
     header > img:first-of-type{
         grid-area: img;
         position: relative;
-        height: 100%;
-        width: 100%;
     }
     header div:first-of-type{
         
@@ -619,9 +619,7 @@ footer h2{
     }
     
     header h1{
-        font-family: 'Just Another Hand', cursive;
         font-size: 10vw;
-        margin-bottom: -3vh;
         height: fit-content;
         grid-area: a;
     }
@@ -643,7 +641,16 @@ footer h2{
         padding-right: 5%;
 
     }
+    main div:first-of-type h3:first-of-type {
+        margin-left: 5vw;
+        font-family: 'Just Another Hand', cursive;
+        font-size: 5vw;
 
+        grid-area: header;
+        /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+    }
+   
     main div:first-of-type {
         display: grid;
         grid-template-areas: 
@@ -652,49 +659,196 @@ footer h2{
             "foto1 text1 foto2 text2"
         ;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 10vw 10vw 30vw;
+        grid-template-rows: 10vw 5vw 20vw;
+        
     }
-    main div:first-of-type h3:first-of-type{
-        grid-area: header;
-        /* width: 90%;
-        margin-bottom: 1vh;
-        margin-top: 5vh; */
-    }
+    
     main div:first-of-type h3:nth-of-type(2){
         grid-area: tittle2;
         text-align: center;
-        width: 40vw;
-
+        width: 50vw;
+        font-size: 2vw;
     }
     main div:first-of-type h3:nth-of-type(3){
         grid-area: tittle3;
-        width: 50vw;
-        margin-left:        
+        width: 40vw;
+        margin-left: 5vw;    
+        font-size: 2vw;   
+    }
+    main div:nth-of-type(2) div h3 {
+        font-size: 4vw;
     }
     main div:first-of-type img:first-of-type{
-        width: 80%;
+        width: 70%;
         grid-area: foto1;
+        margin-left: 6vw;
+    }
+    main #professors img:first-of-type{
+        width: 30%;
+        margin-left: 36vw;
     }
     main div:first-of-type p:first-of-type{
         grid-area: text1;
         width: 80%;
-        margin-top: 3vh;
+        margin-top: 0vh;
         text-align: center;
-        font-size: 2vw;
+        font-size: 1.7vw;
         margin-bottom: 3vh;
+        text-align: justify;
+        text-justify: inter-word;
     }
     main div:first-of-type img:nth-of-type(2){
         margin-top: 2vh;
         width: 80%;
         grid-area: foto2;
+        margin-left: 3vw;
+
     }
     main div:first-of-type p:nth-of-type(2){
         grid-area: text2;
-        font-size: 2vw;
-
+        font-size: 1.7vw;
+        text-align: justify;
+        text-justify: inter-word;
     }
+    main div:nth-of-type(2) h3{
+        font-size: 5vw;
+    }
+    .mySlides img{
+        margin-left: 6vw;    
+    }
+  
+/* SPOTS*/
+    main div:last-of-type{
+        display: grid;
+        grid-template-areas: 
+        "tittle tittle "
+        "head1 head2"
+        "i1 i2"
+        ;
+    }
+    main div:last-of-type h4:first-of-type{
+        grid-area: tittle;
+    }
+    main div:last-of-type h4:nth-of-type(2){
+        grid-area: head1;
+    }
+    main div:last-of-type h4:nth-of-type(3){
+        grid-area: head2;
+    }
+    main div:last-of-type i:first-of-type{
+        grid-area: i1;
+    }
+    main div:last-of-type i:nth-of-type(2){
+        grid-area: i2;
+    }
+    h4 {
+        font-size: 4vw;
+    }
+
+
+    /*FOOTER*/
+    footer{
+       
+        display:grid;
+        grid-template-areas: 
+        "h1 p input input button"
+        "img h3 i i2 h2"
+        ;
+        grid-template-columns: 25% 25% 15% 15% 20%;
+        grid-row: 20vw 20vw ;
+    }
+    footer input{
+        margin-left: 12vw;
+        margin-right: auto;
+        margin-top: 0.5vh;
+        width:25vw;
+        height: 4vw;
+        font-size: 2vw;
+        grid-area: input;
+    }
+    footer button{
+        margin-left: 8vw;
+        margin-right: auto;
+        padding-left: 0vw;
+        width: 8vw;
+        height: 5vw;
+        font-size:2vw;
+        grid-area: button;
+    }
+    footer p{
+        grid-area: p;
+        color: white;
+        width: 35vw;
+        font-size: 2vw;
+        font-weight: 600;
+        margin-bottom: 0vh;
+        margin-left:5vw;
+    }
+    footer h1{
+        grid-area: h1;
+        width: 32vw;
+        margin-bottom: 0vh;
+        height: 6vh;
+        font-size: 4vw;
+        
+    }
+    footer img:first-of-type{
+        grid-area: img;
+        width: 10vw;
+        margin-left: 12vw;
+        margin-right: auto;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+    }
+    footer h3{
+        grid-area: h3;
+        font-size: 3vw;
+        margin-left: 5vw;
+        margin-right: 5VW;
+        width: 25vw;
+        height: 5vw;
+        padding-top: 0vh;
+        top:0%;
+        bottom:3%;
+        margin-top: 20%;
+    }
+    footer h2{
+        grid-area: h2;
+        color: white;
+        margin-left: 0vw;
+        font-size:2vw;
+        margin-top: 5vh
+    }
+    .fab.fa-youtube{
+        grid-area: i;
+        display: block;
+        font-size: 5vw;
+        margin-left: 8vw;
+        margin-top: 4vw;
+        height: 5vh;
+    }
+    .fab.fa-instagram{
+        grid-area: i2;
+        display: block;
+        font-size: 5vw;
+        margin-top: 4vw;
+
+        
+    }
+    
+    .fa-solid.fa-circle-arrow-up{
+        color: rgb(158, 104, 4);
+        position: fixed;
+        display: block;
+        z-index: 1;
+    }
+    
 }
 @media(min-width: 1000px){
+    
+    main h3 {
+        font-size: 2.5vw;
+    }
     nav{
         padding-bottom: 1vw;
         padding-top: 1vw;
@@ -719,14 +873,15 @@ footer h2{
         grid-template-columns: 50% 0% 50%;
         grid-template-rows: 20vh 20vh 40vh;
         height: 80vh;
-
+        margin-top: 6.5vw;
     }
-    header p:last-child {
-        font-size: 3vw;
-    }
+  
     header p:last-child {
         margin-bottom: 15vh;
         margin-top: 5vh;
+        padding-right: 13%;
+        font-size: 3vw;
+
     }
     h2.tittle{
         margin-left: 4%;
@@ -738,24 +893,32 @@ footer h2{
     h1{
         margin-top: 3vw;
         padding-right: 11%;
-
     }
     
     header div:first-of-type{
-    
         height: 30vw;
         width: 35vw;
         margin-left: 5vw;
     }
     
-    header p:last-child{
-        padding-right: 13%;
-    }
     header div:first-of-type input {
         width: 30vw;
     }
     header div:first-of-type i {
-       
         font-size: 3vw;
+    }
+    
+    main div:first-of-type img:first-of-type{
+        width: 70%;
+        grid-area: foto1;
+        margin-left: 6vw;
+    }
+    main #professors img:first-of-type{
+        width: 30%;
+        margin-left: auto;
+    }
+    iframe{
+        width: 40vw;
+        height: 25vw;
     }
 }

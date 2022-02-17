@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=IBM+Plex+Serif:ital,wght@1,700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
@@ -27,7 +28,7 @@
             </div>     
             <img id="logo-nav" src="./data/images/alliollie_logo_black.jpg" alt="">       
             <ul>
-                <li><a href="#inici" onclick="closeNav()">INICI</a></li>
+                <li><a href="#inici2" onclick="closeNav()">INICI</a></li>
                 <li><a href="#classes" onclick="closeNav()">CLASSES</a></li>
                 <li><a href="#professors" onclick="closeNav()">PROFESSORS</a></li>
                 <li><a href="#spots" onclick="closeNav()">SPOTS</a></li>
@@ -37,9 +38,9 @@
         <div class="icon">
             <i class="fas fa-bars"></i> 
         </div>
-    </nav>
+    </nav >
     
-    <header>
+    <header id="inici2">
         <img src="./data/images/Ana2.jpg">
         <div id="header-banner" class="headerbanner">
             <i id="closehdrbtn"class="fas fa-times" onclick="closeBanner()"></i> 
@@ -60,10 +61,10 @@
         <a href="#contacte"><button type="button" name="button" >APUNTA'T</button></a> -->
         <div id="classes">
             <h3>LES NOSTRES CLASSES</h3>
-            <h3>Clases per a nens i nenes de totes les edats</h3>
+            <h3>Clases per a nens ,nenes i adolescents </h3>
             <img src="./data/images/classes_nens.jpeg" alt="">
-            <p>Clases per a nens de totes les edats i de tots els nivells. Aprèn o millora la teva tècnica fent amics i passant-ho bé. </p>
-            <h3>Clases per a adults i adultes</h3>
+            <p>Classes per a nens de totes les edats i de tots els nivells. Aprèn o millora la teva tècnica fent amics i passant-ho bé. </p>
+            <h3>Classes per a adults i adultes</h3>
             <img src="./data/images/Anna_Mayte.JPG" alt="">
             <p>No importa la edat que tinguis per aprendre a patinar. Aprèn amb nosaltres de forma segura i divertida. </p>
         </div>
@@ -74,25 +75,27 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="./data/images/roura.JPG" style="width:70%">
+                    <img src="./data/images/roura.JPG" >
                     <div class="text">
                         <h3>Jose Manuel Roura</h3>
                         <h4>Co-director de l’Escola</h4>
-                        Campió d’Espanya Skateboard
+                        <p>Campió d’Espanya Skateboard
                         Sub-campió d’Europa Skateboard
                         Director de Lleure educatiu (ROPEC)
-                        Tècnic d’Skateboard (FCP)</div>
+                        Tècnic d’Skateboard (FCP)</p>
+                    </div>
                 </div>
                 <div class="mySlides fade">
-                    <img src="./data/images/sebas.JPG" style="width:70%">
+                    <img src="./data/images/sebas.JPG">
                     <div class="text">
                         <h3>Marc Sebastià</h3>
                         <h4>Co-director de l’Escola</h4>
-                        Conductor d’activitats físico-
-                        esportives en el medi ambient.
-                        Monitor/Dinamitzador de lleure
-                        educatiu (ROPEC)<br>
-                        Tècnic d’Skateboard (FCP)</div>
+                        <p>Conductor d’activitats físico-
+                            esportives en el medi ambient.
+                            Monitor/Dinamitzador de lleure
+                            educatiu (ROPEC)<br>
+                            Tècnic d’Skateboard (FCP)</p>
+                        </div>
                 </div>
             </div>
             <!-- SLIDESHOW END -->
@@ -100,10 +103,10 @@
         <div id="spots">
             <h4>SPOTS</h4>
             <h4>La Bobila</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.085771999602!2d2.243398515428019!3d41.45905497925759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bb0a8b79e10f%3A0x39dd3615ca2fa2f0!2sB%C3%B2bila%20DIY!5e0!3m2!1sca!2ses!4v1644681045602!5m2!1sca!2ses" width="90%" height="60%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.085771999602!2d2.243398515428019!3d41.45905497925759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bb0a8b79e10f%3A0x39dd3615ca2fa2f0!2sB%C3%B2bila%20DIY!5e0!3m2!1sca!2ses!4v1644681045602!5m2!1sca!2ses" width="80%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             
             <h4>Skatepark de Pomar</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.343153028298!2d2.2368324350495064!3d41.459054626635904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bba7a55dcc5d%3A0x7c83e44c1549298b!2sSkatepark%20De%20Pomar!5e0!3m2!1sca!2ses!4v1644681245414!5m2!1sca!2ses" width="90%" height="60%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.343153028298!2d2.2368324350495064!3d41.459054626635904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bba7a55dcc5d%3A0x7c83e44c1549298b!2sSkatepark%20De%20Pomar!5e0!3m2!1sca!2ses!4v1644681245414!5m2!1sca!2ses" width="80%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         
     </main>
@@ -157,6 +160,7 @@
     let closeBtn2 = document.querySelector('#closehdrbtn');
     let openBtn = document.querySelector('.fa-bars');
     let sideBarMenu = document.querySelector('#sideBarNav');
+    let startbutton = document.querySelector('.arrowbutton');
     let banner = document.querySelector('#header-banner');
     let sidenav = document.querySelector('.sidenav');
     let header = document.getElementsByTagName("header");
