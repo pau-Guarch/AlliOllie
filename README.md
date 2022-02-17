@@ -51,7 +51,7 @@ Mètode d’entrega: link a una web on es podran veure les feines realitzades en
 **Primera entrega 10/2/2022**    
 **Estat:** Pendent d’aprovació.  
 S’entregarà una primera versió del prototip de la pàgina web, on es duran a terme les feines acordades en les fases prèvies del projecte. Es farà una presentació de la pàgina web i s’obrirà un fil de noves propostes/modificacions. En cas de sol·licitar modificacions es retocaran l’esborrany, el wireframe, el mapa de navegació i la guia d’estils.  
-
+https://pauguarch.github.io/AlliOllie/
 **Entrega final 17/02/2022**  
 **Estat:** Pendent d’aprovació.  
 S’entregarà una versió final del producte en cas de que els canvis sol·licitats no modifiquin l’estructura de blocs acordada previament.
