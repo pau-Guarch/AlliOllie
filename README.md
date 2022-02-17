@@ -79,7 +79,8 @@ Treballem per a petites i mitjanes empreses i ens adaptem a diferents tipus de p
 Desenvolupament d'una pàgina web tipus single page, per a després anar ampliant seccions i anar incloent mes contingut. La idea és fer una primera versió on es mostri tota la informació necessaria pel client per poder penjar la pagina web amb el minim temps possible. Un cop tinguem una primera versió disponible , a mida que es vagi avançant en el projecte, s'anirà incloent tot aquell contingut i totes les noves funcionalitats que es vagin acabant.
 
 ## 3. Desenvolupament del Contingut de la Proposta
-Bàsicament en què consisteix el servei i com el donarem al nostre client. Si existeixen diferent fites o fases haureu d'especificar-los en un calendari (diagrama de gantt), que contempli i expliqui cada fase
+![image](https://user-images.githubusercontent.com/77450987/154568198-c8148081-0ec9-437d-8853-eda893fb263c.png)
+
 
 ## 4. Abast de la Proposta
 La nostra proposta inclou la realització d'una single page amb 4 seccions diferenciades on s'inclourà la informació bàsica que requereixi el client. Per cadascuna d'aquestes seccions, desenvoluparem també una pàgina web apart on poguem veure el contingut de cada secció de forma més detallada. En total tindrem 5 dissenys de pàgina(pagina principal+4seccions). Inclourem també les funcionalitats de poder enviar el mail de l'usuari per rebre informació ampliada sobre tots els serveis ofertats per l'empresa, una secció de galeria de fotos interactiva. 
