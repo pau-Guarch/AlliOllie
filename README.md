@@ -30,7 +30,14 @@ Primera versió del wireframe de la pàgina web. Quedarà obert a nous canvis (e
 Mètode d’entrega: link a una web on es podran veure les feines realitzades en les dates acordades.  
   
   https://miro.com/app/board/uXjVOTitpR4=/?invite_link_id=599933191448
+## ESBORRANY DE NAVEGADOR
+![IMG_20220217_205940](https://user-images.githubusercontent.com/77450987/154564398-b4fb5d95-569e-49d9-8861-a400c611e5ac.jpg)
 
+![IMG_20220217_205959](https://user-images.githubusercontent.com/77450987/154564565-e90fc6da-4d97-4134-8167-9e2eee545b14.jpg)
+
+## ESBORRANY MÒVIL
+
+![IMG_20220217_210041](https://user-images.githubusercontent.com/77450987/154564955-5de4a070-ee76-4ec2-a120-0a7b850ac077.jpg)
 
 ## 3) Elaboració d'un mapa de Navegació: Fase de disseny
 **Temporització (Data de lliurament):** 27/01/2022  
