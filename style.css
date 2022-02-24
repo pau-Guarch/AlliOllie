@@ -926,4 +926,12 @@ footer h2{
         width: 40vw;
         height: 25vw;
     }
+    .next{
+        top: 45.7vh;
+        left:20%;
+    }
+    .prev{
+        top: 58vh;
+        right:20%;
+    }
 }
